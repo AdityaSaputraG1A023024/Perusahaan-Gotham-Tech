@@ -172,15 +172,10 @@ footer {
 	height: auto;
 	opacity: 0.5;
 	z-index: 0;
-	-webkit-transform: translateX(-50) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
 	/*untuk chrome*/
 	transform: translate(-50%) translateY(-50%);
 	/*untuk default*/
-  }
-  
-.intro .container {
-	position: relative;
-	z-index: 2;
   }
   
 .intro .overlay-wcs {
